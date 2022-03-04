@@ -96,12 +96,12 @@ export default function PreviewProject({
           (badge) =>
             badge.isSelected && (
               <span key={badge.name}>
-                ![
+                ![{badge.name}](
                 {"https://img.shields.io/badge/" +
-                  badge.name +
+                  badge.image +
                   "&style=" +
                   badgeType}
-                ]({badge.image}) <br />
+                ) <br />
               </span>
             )
         )}
@@ -109,12 +109,12 @@ export default function PreviewProject({
           (badge) =>
             badge.isSelected && (
               <span key={badge.name}>
-                ![
+                ![{badge.name}](
                 {"https://img.shields.io/badge/" +
-                  badge.name +
+                  badge.image +
                   "&style=" +
                   badgeType}
-                ]({badge.image}) <br />
+                ) <br />
               </span>
             )
         )}
@@ -122,12 +122,12 @@ export default function PreviewProject({
           (badge) =>
             badge.isSelected && (
               <span key={badge.name}>
-                ![
+                ![{badge.name}](
                 {"https://img.shields.io/badge/" +
-                  badge.name +
+                  badge.image +
                   "&style=" +
                   badgeType}
-                ]({badge.image}) <br />
+                ) <br />
               </span>
             )
         )}
@@ -135,12 +135,12 @@ export default function PreviewProject({
           (badge) =>
             badge.isSelected && (
               <span key={badge.name}>
-                ![
+                ![{badge.name}](
                 {"https://img.shields.io/badge/" +
-                  badge.name +
+                  badge.image +
                   "&style=" +
                   badgeType}
-                ]({badge.image}) <br />
+                ) <br />
               </span>
             )
         )}
@@ -148,12 +148,12 @@ export default function PreviewProject({
           (badge) =>
             badge.isSelected && (
               <span key={badge.name}>
-                ![
+                ![{badge.name}](
                 {"https://img.shields.io/badge/" +
-                  badge.name +
+                  badge.image +
                   "&style=" +
                   badgeType}
-                ]({badge.image}) <br />
+                ) <br />
               </span>
             )
         )}
