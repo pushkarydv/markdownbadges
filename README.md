@@ -1,5 +1,5 @@
 <div align="center">
- <h1> <img src="https://mdb.pushkaryadav.in/logo512.png" width="80px"><br/>MDB : Markdown Badges</h1>
+ <h1> <img src="https://mdb.pushkaryadav.in/logo.svg" width="80px"><br/>MDB : Markdown Badges</h1>
  <a href="https://www.buymeacoffee.com/pushkarydv" target="_blank"><img alt="" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black" style="vertical-align:center" /></a>
  <img src="https://img.shields.io/npm/v/npm?style=normal"/>
  <img src="https://img.shields.io/website?style=normal&url=https%3A%2F%2Fmdb.pushkaryadav.in/"/> 
