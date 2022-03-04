@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col md:flex-row p-5 lg:p-12 h-screen items-center pt-12 md:pt-0">
+    <div className="flex flex-col md:flex-row gap-4 p-5 lg:p-12 min-h-screen items-center pt-12 md:pt-0 ">
       <div className="basis-3/5">
-        <div className="text-6xl lg:text-8xl font-bold mt-6 md:mt-12 lg:pt-24 text-slate-700 ">
+        <div className="text-5xl md:text-6xl lg:text-8xl font-bold mt-24 lg:mt-auto lg:pt-24 text-slate-700 ">
           Super Cool Badges for your Projects
         </div>
-        <div className="mt-6 text-3xl">
+        <div className="mt-8 md:mt-6 text-3xl">
           Socials/ Languages/ Frameworks/ Libraries and more
         </div>
 

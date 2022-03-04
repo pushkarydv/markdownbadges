@@ -3,6 +3,8 @@ export default function PreviewProject({
   languages,
   database,
   fpl,
+  social,
+  badgeType,
 }) {
   return (
     <>
@@ -15,7 +17,8 @@ export default function PreviewProject({
                 src={
                   "https://img.shields.io/badge/" +
                   badge.image +
-                  "&&style=for-the-badge"
+                  "&style=" +
+                  badgeType
                 }
                 key={badge.name}
                 alt="badge"
@@ -29,7 +32,8 @@ export default function PreviewProject({
                 src={
                   "https://img.shields.io/badge/" +
                   badge.image +
-                  "&&style=for-the-badge"
+                  "&style=" +
+                  badgeType
                 }
                 key={badge.name}
                 alt="badge"
@@ -43,7 +47,8 @@ export default function PreviewProject({
                 src={
                   "https://img.shields.io/badge/" +
                   badge.image +
-                  "&&style=for-the-badge"
+                  "&style=" +
+                  badgeType
                 }
                 key={badge.name}
                 alt="badge"
@@ -57,7 +62,23 @@ export default function PreviewProject({
                 src={
                   "https://img.shields.io/badge/" +
                   badge.image +
-                  "&&style=for-the-badge"
+                  "&style=" +
+                  badgeType
+                }
+                key={badge.name}
+                alt="badge"
+              />
+            )
+        )}
+        {social.map(
+          (badge) =>
+            badge.isSelected && (
+              <img
+                src={
+                  "https://img.shields.io/badge/" +
+                  badge.image +
+                  "&style=" +
+                  badgeType
                 }
                 key={badge.name}
                 alt="badge"
@@ -70,7 +91,7 @@ export default function PreviewProject({
           Code
         </span>
       </div>
-      <div className="text-slate-100 bg-slate-800 rounded-lg p-2 md:p-4">
+      <div className="text-slate-100 bg-slate-800 rounded-lg p-2 md:p-4 overflow-y-auto">
         {languages.map(
           (badge) =>
             badge.isSelected && (
@@ -78,7 +99,8 @@ export default function PreviewProject({
                 ![
                 {"https://img.shields.io/badge/" +
                   badge.name +
-                  "&style=for-the-badge"}
+                  "&style=" +
+                  badgeType}
                 ]({badge.image}) <br />
               </span>
             )
@@ -90,7 +112,8 @@ export default function PreviewProject({
                 ![
                 {"https://img.shields.io/badge/" +
                   badge.name +
-                  "&style=for-the-badge"}
+                  "&style=" +
+                  badgeType}
                 ]({badge.image}) <br />
               </span>
             )
@@ -102,7 +125,8 @@ export default function PreviewProject({
                 ![
                 {"https://img.shields.io/badge/" +
                   badge.name +
-                  "&style=for-the-badge"}
+                  "&style=" +
+                  badgeType}
                 ]({badge.image}) <br />
               </span>
             )
@@ -114,7 +138,21 @@ export default function PreviewProject({
                 ![
                 {"https://img.shields.io/badge/" +
                   badge.name +
-                  "&style=for-the-badge"}
+                  "&style=" +
+                  badgeType}
+                ]({badge.image}) <br />
+              </span>
+            )
+        )}
+        {social.map(
+          (badge) =>
+            badge.isSelected && (
+              <span key={badge.name}>
+                ![
+                {"https://img.shields.io/badge/" +
+                  badge.name +
+                  "&style=" +
+                  badgeType}
                 ]({badge.image}) <br />
               </span>
             )

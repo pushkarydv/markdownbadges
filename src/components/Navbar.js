@@ -14,7 +14,7 @@ export default function Navbar({ bgClass = "" }) {
             to="/"
             className="no-underline text-slate-600 font-medium text-4xl pl-2"
           >
-            MB
+            MDB
           </Link>
         </div>
         <a
