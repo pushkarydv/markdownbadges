@@ -5,7 +5,7 @@ export default function Navbar({ bgClass = "" }) {
     <>
       <nav
         className={
-          "flex flex-row justify-between items-center text-2xl p-4 fixed top-0 left-0 w-full " +
+          "flex flex-row justify-between items-center text-2xl p-4  w-full " +
           bgClass
         }
       >
