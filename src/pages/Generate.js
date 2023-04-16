@@ -51,7 +51,7 @@ export default function Generate() {
   return (
     <>
       <div className="flex flex-col lg:flex-row">
-        <div className="basis-1/2 h-screen overflow-auto p-2 lg:p-4">
+        <div className="basis-1/2 h-screen overflow-auto p-2 lg:p-4 select-none">
           {" "}
           <div className="text-center text-xl">
             Badge Type:{" "}
